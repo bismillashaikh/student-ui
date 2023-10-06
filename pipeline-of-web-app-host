@@ -9,7 +9,7 @@ pipeline {
         stage('git commit') {
             steps {
               sh '''
-              https://github.com/bismillashaikh/student-ui.git
+              'https://github.com/bismillashaikh/student-ui.git'
         
         '''  
             }
